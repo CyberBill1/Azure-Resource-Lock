@@ -1,0 +1,17 @@
+#The following steps are taken to activate a lock for a given Azure Resource:
+
+Select Locks in the Settings blade for the resource, resource group, or
+subscription that you want to lock.
+
+Select Add to add a lock.
+
+Select the parent if you want to create a lock at that level. 
+
+The currently selected resource inherits the parent's lock. You could, for
+example, lock the resource group to apply a lock to all of its resources.
+
+Give the lock a name and select a Lock type (also known as lock level). You can
+optionally include notes that describe the lock.
+
+That is it, the resource is securely protected with respect to the type of lock
+applied.
